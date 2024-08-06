@@ -1,0 +1,87 @@
+.title {
+    color: white;
+    font-size: 56px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.text {
+    color: white;
+    font-size: 24px;
+    text-align: start;
+}
+
+.home_container {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 160px;
+}
+
+.home_btn {
+    display: inline-block;
+    color: black;
+    background-color: orange;
+    border: none;
+    font-size: 24px;
+    border-radius: 8px;
+    padding: 12px 24px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.home_btn:hover {
+    transform: scale(1.05);
+}
+
+.slider {
+    margin-top: 160px;
+    width: 500px;
+    height: 500px;
+    background-color: cadetblue;
+}
+
+.img {
+    width: 500px;
+    height: 500px;
+}
+
+.icon {
+    margin-top: 200px;
+    fill: white;
+    width: 100px;
+    height: 100px;
+}
+
+.textMessHome {
+    font-size: 24px;
+    text-align: center;
+}
+
+.modal_close_btn {
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: black;
+    background-color: orange;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.modal_close_btn:hover {
+    transform: scale(1.05);
+}

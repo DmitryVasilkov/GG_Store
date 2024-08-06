@@ -1,0 +1,8 @@
+.gameList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: flex-start;
+    width: 1316px;
+    margin-top: 24px;
+}

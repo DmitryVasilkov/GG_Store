@@ -1,0 +1,40 @@
+.notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 272px;
+    height: 80px;
+    background-color: green;
+    position: absolute;
+    border-radius: 12px;
+    top: 100px;
+    right: 48px;
+    animation-name: show_notification;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes show_notification {
+    0% {
+        transform: translateX(600px);
+    }
+
+    30% {
+        transform: translateX(0);
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.notification_text {
+    color: white;
+    font-size: 20px;
+}

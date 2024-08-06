@@ -1,0 +1,64 @@
+.form {
+    color: white;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form_title {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.input_wrapper {
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input {
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 12px;
+    font-size: 20px;
+    color: white;
+}
+
+.input:focus-within {
+    outline: none;
+    border: 1px solid orange;
+}
+
+.submit_btn {
+    margin-top: 10px;
+    height: 44px;
+    font-size: 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: orange;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.submit_btn:hover {
+    transform: scale(1.03);
+}
+
+.submit_btn:active {
+    transform: scale(1);
+}
+
+.error_text {
+    color: rgb(255, 54, 54);
+    font-size: 12px;
+}

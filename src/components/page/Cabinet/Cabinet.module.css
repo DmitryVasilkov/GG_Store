@@ -1,0 +1,43 @@
+.title {
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.page_wrapper {
+    padding-top: 96px;
+}
+
+.cabinet_section {
+    min-height: 85vh;
+}
+
+.link {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-top: 12px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    transform: scale(1.05);
+}
+
+.user_image {
+    border-radius: 50%;
+}
+
+.title_wrapper {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    gap: 8px;
+}

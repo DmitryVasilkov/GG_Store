@@ -1,0 +1,27 @@
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.loader {
+    color: white;
+
+}
+
+/* .main_layout {
+    background-image: url('./../../../public/images/7.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+
+.main_layout {
+    background-image: url('./../../../public/images/9.webp');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.7);
+}

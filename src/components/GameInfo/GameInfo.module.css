@@ -1,0 +1,53 @@
+.game_title {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+.image {
+    border-radius: 12px;
+    width: 640px;
+}
+
+.wrapper {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descr_text {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.descr {
+    width: 640px;
+}
+
+.btn_wrapper {
+    display: flex;
+    gap: 24px;
+}
+
+.add_btn {
+    width: 160px;
+    height: 44px;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(208, 138, 6);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.add_fav_btn {
+    width: 180px;
+    height: 44px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}

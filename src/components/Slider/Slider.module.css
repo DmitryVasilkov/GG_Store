@@ -1,0 +1,103 @@
+.slider_wrapper {
+    display: flex;
+    gap: 12px;
+    margin-top: 160px;
+    align-items: center;
+}
+
+.slider {
+    width: 560px;
+    height: 560px;
+    overflow: hidden;
+}
+
+.sliderList {
+    display: flex;
+    gap: 12px;
+    transition: all 0.3s linear;
+}
+
+.slider_item {
+    width: 560px;
+    height: 560px;
+    /* position: relative;
+    cursor: pointer; */
+}
+
+/* 
+.slider_item::before {
+    content: 'Learn more about this game';
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    width: 560px;
+    height: 560px;
+    top: -560px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.611);
+    transition: all 0.250s linear;
+
+} */
+
+/* .slider_item:hover::before {
+    top: 0;
+    cursor: pointer;
+} */
+
+.img_wrapper {
+    width: 560px;
+    height: 560px;
+    position: relative;
+    cursor: pointer;
+}
+
+.img_wrapper::before {
+    content: 'Learn more about this game';
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    width: 560px;
+    height: 560px;
+    top: -560px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.611);
+    transition: all 0.250s linear;
+
+}
+
+.img_wrapper:hover::before {
+    top: 0;
+    cursor: pointer;
+}
+
+.img {
+    display: block;
+    width: 560px;
+    height: 560px;
+}
+
+.left,
+.right {
+    fill: white;
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+}
+
+.prev_btn,
+.next_btn {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}

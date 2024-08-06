@@ -1,0 +1,241 @@
+.title {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.subTitle {
+    color: white;
+    font-size: 20px;
+
+}
+
+.subtitle_wrapper {
+    display: flex;
+    gap: 4px;
+    align-items: flex-start;
+
+}
+
+.toggle_info_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 4px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.info_list {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.info_text {
+    color: white;
+    font-size: 24px;
+}
+
+.info_span {
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+.edit_btn {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    background-color: orange;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.edit_btn:hover {
+    transform: scale(1.05);
+}
+
+.pers_info_wrapper {
+    display: flex;
+    gap: 48px;
+    opacity: 0;
+    transform: translateY(-200px);
+    animation: showInfo;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    transition: all 0.3s linear;
+}
+
+@keyframes showInfo {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.history_title {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 12px;
+    font-weight: 600;
+
+}
+
+.icon {
+    margin-left: 4px;
+    padding-top: 10px;
+}
+
+.edit_form {
+    position: relative;
+    height: 212px;
+    padding: 12px;
+    outline: 1px solid white;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    border-radius: 12px;
+    animation: showForm;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+
+.close_btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    right: -48px;
+    top: -48px;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.close_btn:hover {
+    transform: scale(1.1);
+    background-color: rgb(174, 1, 1);
+}
+
+.cross_btn {
+    color: white;
+    font-size: 24px;
+
+}
+
+@keyframes showForm {
+    0% {
+        opacity: 0;
+        transform: translateX(2000px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.input_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.label {
+    margin-left: 8px;
+    color: white;
+}
+
+.input {
+    color: white;
+    padding: 4px 12px;
+    width: 320px;
+    font-size: 16px;
+    height: 32px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    caret-color: white;
+}
+
+.input:focus-within {
+    outline: none;
+}
+
+.first_input_wrapper,
+.second_input_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.main_wrapper {
+    display: flex;
+    gap: 12px;
+}
+
+.hidden {
+    opacity: 0;
+    height: 0;
+    width: 0;
+    line-height: 0;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.photo_btn,
+.confirm_btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-top: 12px;
+    border-radius: 12px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    width: 168px;
+    transition: all 0.3s linear;
+}
+
+.confirm_btn {
+    width: 128px;
+}
+
+.photo_btn:hover,
+.confirm_btn:hover {
+    transform: scale(1.03);
+}
+
+.third_input_wrapper {
+    display: flex;
+    gap: 12px;
+}
+
+.wrapper {
+    margin-right: 96px;
+}

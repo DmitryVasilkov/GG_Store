@@ -1,0 +1,42 @@
+.address {
+    font-style: normal;
+}
+
+.city {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 12px;
+    font-weight: 100;
+}
+
+.street {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 12px;
+    font-weight: 100;
+}
+
+.link {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 12px;
+    font-weight: 100;
+}
+
+.tel {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 12px;
+    font-weight: 100;
+}
+
+.mail {
+    color: white;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.contacts_wrapper {
+    display: flex;
+    justify-content: space-between;
+}

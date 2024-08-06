@@ -1,0 +1,10 @@
+.footer {
+    padding: 32px 0;
+
+}
+
+.footer_text {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
